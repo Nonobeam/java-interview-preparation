@@ -63,6 +63,8 @@ interview/
 │   │   └── <n>-<short-name>.md  ← one question per file, numbered
 │   └── answers/
 │       └── <n>-<short-name>.md  ← one answer per file, same number maps to its question
+├── domain/
+│   └── <domain-name>/ ← domain knowledge notes (e.g., logistics/)
 └── goal/
     └── <company>/
         ├── jd.md      ← job description (most important)
@@ -95,7 +97,12 @@ Structure each entry as:
 
 ## Pair Files — Reviewed Q&A Bank
 
-After generating questions in `goal/<company>/qa.md`, I will review them and mark which ones I believe are worth keeping. When I confirm a question:
+After generating questions in `goal/<company>/qa.md`, I will review them and mark which ones I believe are worth keeping. When I confirm a question, **categorize it first**:
+
+- **Java/Spring/tech questions** → go to `pair/` (questions + answers as individual files)
+- **Domain questions** (e.g., logistics, shipping, finance) → go to `domain/<domain-name>/`
+
+### For tech questions confirmed to pair/:
 
 1. **List all existing files** in `pair/questions/` and `pair/answers/` first. Check file names and content to make sure the question does not already exist. If the topic is already covered, do not create a duplicate — update the existing file instead or skip it.
 2. Determine the next sequential number (based on existing files in `pair/questions/`)
