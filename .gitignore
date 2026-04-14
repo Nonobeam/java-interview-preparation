@@ -1,2 +1,4 @@
 goal/*/
 port/*.md
+
+./claude/settings.local.json

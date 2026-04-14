@@ -63,6 +63,13 @@ interview/
 │   │   └── <n>-<short-name>.md  ← one question per file, numbered
 │   └── answers/
 │       └── <n>-<short-name>.md  ← one answer per file, same number maps to its question
+├── algorithm/
+│   ├── p.md           ← index of all algorithm problems
+│   ├── s.md           ← index of all algorithm solutions
+│   ├── problems/
+│   │   └── <n>-<short-name>.md  ← one algorithm problem per file, numbered
+│   └── solutions/
+│       └── <n>-<short-name>.md  ← one solution per file, same number maps to its problem
 ├── domain/
 │   └── <domain-name>/ ← domain knowledge notes (e.g., logistics/)
 └── goal/
@@ -100,6 +107,7 @@ Structure each entry as:
 After generating questions in `goal/<company>/qa.md`, I will review them and mark which ones I believe are worth keeping. When I confirm a question, **categorize it first**:
 
 - **Java/Spring/tech questions** → go to `pair/` (questions + answers as individual files)
+- **Algorithm / data-structure / coding-challenge problems** → go to `algorithm/` (problems + solutions as individual files, indexed in `p.md` and `s.md`)
 - **Domain questions** (e.g., logistics, shipping, finance) → go to `domain/<domain-name>/`
 
 ### For tech questions confirmed to pair/:
@@ -136,6 +144,34 @@ These are index files that link to the individual question/answer files. Each en
 
 ---
 
+## Algorithm Files — Coding Problem Bank
+
+Algorithm / coding-challenge problems follow the same pattern as `pair/`, but live under `algorithm/`:
+
+1. **List existing files** in `algorithm/problems/` before creating a new one to avoid duplicates.
+2. Determine the next sequential number.
+3. Create `algorithm/problems/<n>-<short-name>.md` with the problem statement, constraints, and examples.
+4. Create `algorithm/solutions/<n>-<short-name>.md` with the solution (approach, complexity, real Java code).
+5. Add an index entry to both `algorithm/p.md` and `algorithm/s.md`.
+
+Solutions must include: the key insight, a working Java implementation (not pseudocode), time/space complexity, a worked example, and relevant edge cases.
+
+### algorithm/problems/<n>-<short-name>.md format
+
+```markdown
+# P<n>: <problem title>
+<problem body, examples, constraints>
+```
+
+### algorithm/solutions/<n>-<short-name>.md format
+
+```markdown
+# S<n>: <problem title>
+<approach, Java code, complexity, walkthrough, edge cases>
+```
+
+---
+
 ## Summary
 
 - Always read `port/*.md` first — know my CV cold.
@@ -144,3 +180,4 @@ These are index files that link to the individual question/answer files. Each en
 - Provide real, runnable code for solution-type answers.
 - Save generated output to `goal/<company>/qa.md`.
 - When I confirm a question is worth keeping, create individual files in `pair/questions/` and `pair/answers/` with matching numbers, and update the indexes in `pair/q.md` and `pair/a.md`.
+- Algorithm / coding-challenge problems go to `algorithm/problems/` + `algorithm/solutions/` with matching numbers, indexed in `algorithm/p.md` and `algorithm/s.md`.
