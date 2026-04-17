@@ -4,6 +4,7 @@ Tech interview questions (Java, Spring, Oracle, JPA, Redis, concurrency).
 
 ## Spring fundamentals
 - [1. Spring IoC container](questions/1-spring-ioc-container.md)
+- [56. `@Component` vs `@Bean`](questions/56-component-vs-bean.md)
 - [2. `@Transactional` deep dive](questions/2-transactional-deep-dive.md)
 - [3. `@Transactional` propagation levels](questions/3-transactional-propagation-levels.md)
 - [4. NESTED propagation & rollback](questions/4-nested-propagation-rollback.md)
@@ -14,6 +15,7 @@ Tech interview questions (Java, Spring, Oracle, JPA, Redis, concurrency).
 - [37. Spring bean lifecycle](questions/37-spring-bean-lifecycle.md)
 - [38. Spring Boot auto-configuration](questions/38-spring-boot-autoconfiguration.md)
 - [39. Constructor vs field injection](questions/39-constructor-vs-field-injection.md)
+- [46. Spring MVC request lifecycle](questions/46-spring-mvc-request-lifecycle.md)
 
 ## JPA / Hibernate
 - [6. N+1 query problem](questions/6-n-plus-1-query-problem.md)
@@ -39,6 +41,7 @@ Tech interview questions (Java, Spring, Oracle, JPA, Redis, concurrency).
 
 ## Transactions / Concurrency
 - [21. Redis booking concurrency](questions/21-redis-booking-concurrency.md)
+- [57. Redis — why fast & single-thread model](questions/57-redis-fast-single-thread.md)
 - [22. Transaction isolation levels](questions/22-transaction-isolation-levels.md)
 - [26. ACID deep dive](questions/26-acid-deep-dive.md)
 - [28. JMM & happens-before](questions/28-jmm-happens-before.md)
@@ -50,3 +53,19 @@ Tech interview questions (Java, Spring, Oracle, JPA, Redis, concurrency).
 - [34. 4 pillars of OOP](questions/34-oop-four-pillars.md)
 - [35. SOLID principles](questions/35-solid-principles.md)
 - [36. Java Collections framework](questions/36-java-collections-framework.md)
+- [54. Streams & Lambda](questions/54-streams-lambda.md)
+- [55. Threads — ExecutorService, synchronized, volatile](questions/55-threads.md)
+- [58. Java Object Pool](questions/58-java-object-pool.md)
+
+## Security
+- [47. JWT token](questions/47-jwt-token.md)
+- [48. Symmetric & Asymmetric keys](questions/48-symmetric-asymmetric-keys.md)
+
+## Spring advanced
+- [49. Spring AOP](questions/49-spring-aop.md)
+- [50. Circuit Breaker](questions/50-circuit-breaker.md)
+
+## Distributed systems
+- [51. Message queue — Kafka vs RabbitMQ](questions/51-message-queue.md)
+- [52. Inbox/Outbox pattern](questions/52-inbox-outbox-pattern.md)
+- [53. Domain-Driven Design (DDD)](questions/53-ddd.md)
