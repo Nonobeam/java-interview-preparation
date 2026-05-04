@@ -16,6 +16,12 @@ Tech interview answers (Java, Spring, Oracle, JPA, Redis, concurrency).
 - [38. Spring Boot auto-configuration](answers/38-spring-boot-autoconfiguration.md)
 - [39. Constructor vs field injection](answers/39-constructor-vs-field-injection.md)
 - [46. Spring MVC request lifecycle](answers/46-spring-mvc-request-lifecycle.md)
+- [64. Spring stereotypes — `@Component` / `@Service` / `@Repository` / `@Controller`](answers/64-spring-stereotypes.md)
+- [65. `@RestController` vs `@Controller`](answers/65-restcontroller-vs-controller.md)
+- [66. Spring Data JPA — derived queries, `@Query`, pagination](answers/66-spring-data-queries-pagination.md)
+- [67. `@ControllerAdvice` & `@ExceptionHandler`](answers/67-controller-advice-exception-handler.md)
+- [68. Spring WebFlux — Mono/Flux, reactive](answers/68-spring-webflux-reactive.md)
+- [73. `@Component` vs `@Configuration`](answers/73-component-vs-configuration.md)
 
 ## JPA / Hibernate
 - [6. N+1 query problem](answers/6-n-plus-1-query-problem.md)
@@ -38,6 +44,10 @@ Tech interview answers (Java, Spring, Oracle, JPA, Redis, concurrency).
 - [18. `OFFSET` vs page pagination](answers/18-offset-vs-page-pagination.md)
 - [23. Oracle `MERGE` / upsert](answers/23-oracle-merge-upsert.md)
 - [24. Oracle `CONNECT BY` hierarchical](answers/24-oracle-connect-by-hierarchical.md)
+- [69. SQL JOIN types — INNER / LEFT / RIGHT / FULL / CROSS](answers/69-sql-join-types.md)
+- [70. `GROUP BY`, `HAVING`, aggregates](answers/70-group-by-having-aggregates.md)
+- [71. Subqueries vs CTEs](answers/71-subquery-vs-cte.md)
+- [72. Normalization — 1NF / 2NF / 3NF](answers/72-normalization-1nf-2nf-3nf.md)
 
 ## Transactions / Concurrency
 - [21. Redis booking concurrency](answers/21-redis-booking-concurrency.md)
@@ -56,6 +66,11 @@ Tech interview answers (Java, Spring, Oracle, JPA, Redis, concurrency).
 - [54. Streams & Lambda](answers/54-streams-lambda.md)
 - [55. Threads — ExecutorService, synchronized, volatile](answers/55-threads.md)
 - [58. Java Object Pool](answers/58-java-object-pool.md)
+- [59. `hashCode()` contract](answers/59-hashcode-contract.md)
+- [60. `String` immutability, String pool, `StringBuilder` vs `StringBuffer`](answers/60-string-immutability-pool.md)
+- [61. Generics & wildcards (`? extends`, `? super`)](answers/61-generics-wildcards.md)
+- [62. Exceptions — checked vs unchecked, try-with-resources](answers/62-exceptions-checked-unchecked.md)
+- [63. JVM memory layout & garbage collection](answers/63-jvm-memory-gc.md)
 
 ## Security
 - [47. JWT token](answers/47-jwt-token.md)

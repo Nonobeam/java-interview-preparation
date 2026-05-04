@@ -22,3 +22,7 @@ For company: **CLT** (Logistics / Container Shipping)
 | D11 | Common business challenges | [11-common-challenges.md](11-common-challenges.md) |
 | D12 | Booking deep dive | [12-booking-deep-dive.md](12-booking-deep-dive.md) |
 | D13 | Booking system — common engineering problems | [13-booking-system-problems.md](13-booking-system-problems.md) |
+| D14 | Container shipment schema design | [14-container-shipment-schema.md](14-container-shipment-schema.md) |
+| D15 | Overdue containers query | [15-overdue-containers-query.md](15-overdue-containers-query.md) |
+| D16 | Container journey query | [16-container-journey-query.md](16-container-journey-query.md) |
+| D17 | Oracle deadlock in logistics | [17-oracle-deadlock-logistics.md](17-oracle-deadlock-logistics.md) |
