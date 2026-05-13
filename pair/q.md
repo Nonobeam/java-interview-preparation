@@ -29,6 +29,7 @@ Tech interview questions (Java, Spring, Oracle, JPA, Redis, concurrency).
 - [14. Oracle ↔ Spring integration differences](questions/14-oracle-spring-integration-differences.md)
 - [16. JPA `@Version` & Oracle locking](questions/16-jpa-version-oracle-locking.md)
 - [26. JPA pessimistic locking](questions/26-jpa-pessimistic-locking.md)
+- [70. JPA vs Hibernate — specification vs implementation](questions/70-jpa-vs-hibernate.md)
 
 ## Oracle / SQL
 - [8. `SYSDATE` vs `CURRENT_DATE`](questions/8-oracle-sysdate-vs-current-date.md)
@@ -67,16 +68,20 @@ Tech interview questions (Java, Spring, Oracle, JPA, Redis, concurrency).
 - [32. Java Collections framework](questions/32-java-collections-framework.md)
 - [50. Streams & Lambda](questions/50-streams-lambda.md)
 - [51. Threads — ExecutorService, synchronized, volatile](questions/51-threads.md)
+- [77. Spring virtual threads — Project Loom, pinning, vs reactive](questions/77-spring-virtual-threads.md)
 - [54. `hashCode()` contract](questions/54-hashcode-contract.md)
+- [72. `HashMap` vs `HashSet` — internal table, `hashCode()` role](questions/72-hashmap-vs-hashset.md)
 - [55. Java Object Pool](questions/55-java-object-pool.md)
 - [56. `String` immutability, String pool, `StringBuilder` vs `StringBuffer`](questions/56-string-immutability-pool.md)
 - [57. Generics & wildcards (`? extends`, `? super`)](questions/57-generics-wildcards.md)
 - [58. Exceptions — checked vs unchecked, try-with-resources](questions/58-exceptions-checked-unchecked.md)
 - [59. JVM memory layout & garbage collection](questions/59-jvm-memory-gc.md)
+- [76. `System.gc()` — hint not command, GC triggers](questions/76-system-gc-immediate.md)
 
 ## Security
 - [43. JWT token](questions/43-jwt-token.md)
 - [44. Symmetric & Asymmetric keys](questions/44-symmetric-asymmetric-keys.md)
+- [71. OAuth2 — authorization framework, grant types, roles](questions/71-oauth2.md)
 
 ## Spring advanced
 - [45. Spring AOP](questions/45-spring-aop.md)
@@ -86,3 +91,6 @@ Tech interview questions (Java, Spring, Oracle, JPA, Redis, concurrency).
 - [47. Message queue — Kafka vs RabbitMQ](questions/47-message-queue.md)
 - [48. Inbox/Outbox pattern](questions/48-inbox-outbox-pattern.md)
 - [49. Domain-Driven Design (DDD)](questions/49-ddd.md)
+- [73. Saga pattern — distributed transactions, compensating actions, retry](questions/73-saga-distributed-transactions.md)
+- [74. Prevent duplicate requests — idempotency keys, deduplication](questions/74-prevent-duplicate-requests.md)
+- [75. Handle traffic spike — rate limiting, load shedding, backpressure, bulkhead](questions/75-handle-traffic-spike.md)
